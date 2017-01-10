@@ -1,0 +1,11 @@
+.pay{
+    background-color:black;
+    color:white;
+    font-family: Calibri;
+}
+.pay:hover{
+    background-color: whitesmoke;
+}
+a{
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+General
+
+empty
+length
+min, max
+greater, smaller
+equal
+
+----------
+Specific
+
+phone
+email
+credit card
+address: postal code, street
+password

@@ -1,0 +1,87 @@
+.navigation {
+  z-index: 100;
+}
+
+.navigation ul {
+  list-style: none;
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.navigation a:hover {
+  background-color: #ff6666;
+}
+
+.navigation a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.navigation li li {
+  font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .navigation li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .navigation a {
+    border-bottom: none;
+  }
+
+  .navigation > ul > li {
+    text-align: center;
+  }
+
+  .navigation > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .navigation li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .navigation li:hover ul {
+    display: block;
+  }
+
+  .navigation li ul li {
+    display: block;
+  }
+}

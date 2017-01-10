@@ -1,0 +1,47 @@
+.ratings
+{
+    border:     1px solid #CCC;
+    overflow:   visible;
+    /* padding:    10px; */
+    padding:    5px;
+    position:   relative;
+    width:      180px;
+    /*height:     100px;*/
+    height:     74px;
+}
+.ratings_stars
+{
+    background: url('star_image/star_blank.png ') no-repeat;
+    float:      left;
+    height:     28px;
+    padding:    2px;
+    width:      32px;
+}
+.ratings_vote
+{
+    background: url('star_image/star_voted.png') no-repeat;
+}
+.ratings_over
+{
+    background: url('star_image/star_overs.png') no-repeat;
+}
+
+.total_votes
+{
+    background: #eaeaea;
+    /* top: 58px; */
+    top: 40px;
+    left: 0;
+    /*  padding: 5px; */
+    padding: 0px;
+    position:   absolute;
+}
+.product
+{
+    font: 10px verdana, sans-serif;
+    width: 180px;
+    /*margin: 0 auto 40px auto;
+
+    height:200px;
+    */
+}

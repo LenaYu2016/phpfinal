@@ -1,0 +1,153 @@
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:700);
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.center{
+    text-align: center;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+#film-banner{
+    background-image:url('../../../booking/image/book-ticketbanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#film-banner h1{
+    padding:20px;
+    text-align: center;
+}
+
+#film-info{
+    margin-top:25px;
+    font-size:1.5em;
+    border-bottom: 3px solid #b2b2b2;
+    
+}
+
+select{
+    width:70%;
+    background: #f5f5f5;
+    border: none;
+    color: #888888;
+}
+
+#film-info .show-time{
+   margin-top:20px; 
+}
+
+#film-info .btn-time{
+    background-color:#ffffff;
+    padding:0 15px;
+    color:#44d30c;
+}
+
+#film-info .Legend{
+    font-size:1.4rem;
+    margin-top: 20px;
+   
+    
+}
+
+#film-info .Legend span{
+    padding:0 15px;
+}
+
+#film-info .Legend .available{
+    color:#44d30c;
+}
+
+#film-info .Legend .filling{
+    color: #ffb11b;
+}
+
+#film-info .Legend .sold-out{
+    color: #eb1616;
+}
+#film-info .Legend .Lapsed{
+    color: #b2b2b2;
+}
+#film-info .btn-submit .btn-booking{
+    background-color:#ff6666;
+    border-radius: 0;
+    color:#ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+
+/********* film-details************/
+
+#film-detail{
+    margin-top:20px;
+    padding-bottom:20px;
+    border-bottom:  3px solid #b2b2b2;
+}
+#film-detail .row.movdet {
+    margin-top: 20px;
+}
+
+@media (max-width:500px){
+    
+    .col-line{
+        width:100%;
+        text-align: center;
+    }
+}
+
+#film-intro{
+    margin-top: 30px;
+}
+
+#film-intro span{
+    margin:10px;
+    padding:10px;
+    background-color: #b2b2b2;
+}
+
+#film-intro p{
+        color: #000;
+        padding: 0px;
+        line-height: 30px;
+}
+.timer {
+    position: fixed;
+    right: 0;
+    font-family: 'roboto-regular';
+    font-size: 14px;
+    background: url(../../../Booking/image/timer-bg.png) no-repeat;
+    color: #fff;
+    top: 85%;
+    width: 122px;
+    height: 44px;
+    padding-top: 15px;
+    padding-left: 25px;
+    border-top-right-radius: 0px;
+    z-index: 99;
+    display: inline-block;
+
+}
+
+#film-info .available{
+    color:#44d30c;
+}
+
+#film-info .filling{
+    color: #ffb11b;
+
+}
+
+#film-info .sold-out{
+    color: #eb1616;
+}

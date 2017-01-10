@@ -1,0 +1,19 @@
+RewriteEngine on
+
+# Case insensitive
+#CheckSpelling On
+#CheckCaseOnly On
+
+
+RewriteRule    ^page.+ Menu/index.php                    [NC,L]
+# Auth folder, don't match app folder
+RewriteRule    ^Auth(?!\/Views).+ Auth/index.php                    [NC,L]
+# Payment page
+RewriteRule    ^Payment.* Payment/index.php                    [NC,L]
+# Api
+RewriteRule    ^api.* Api/index.php                    [NC,L]
+
+RewriteRule    ^admin.* Admin_Login/admin/index.php                    [NC,L]
+
+#Home page
+#RewriteRule    ^.*$ index.php

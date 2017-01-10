@@ -1,0 +1,6 @@
+{
+  "require": {
+    "stripe/stripe-php": "3.*",
+    "endroid/qrcode": "^1.5"
+  }
+}

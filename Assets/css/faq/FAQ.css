@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:700);
+body{
+	font-family: 'Archivo Narrow';
+}
+.menu-nav li a{   
+	font-size: 16px;
+    font-family: 'Archivo Narrow';
+    color: #000;
+    outline: none;
+}
+
+.menu-nav > li.active > a, .menu-nav > li.active > a:hover, .menu-nav > li.active > a:focus {
+    background: #ffcd9a;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    color: #000;
+    outline: none;
+}
+
+.nav-style{
+	    border-bottom: 1px solid #ffcd9a;
+}
+
+.no-padding{
+	padding:0px;
+}
+
+.FAQ-form {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+    
+}
+
+input[type="text"]{
+	font-family: 'Archivo Narrow';
+}
+
+select {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	font-family: 'Archivo Narrow';
+}
+
+.question{
+	margin: 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: normal;
+	border-bottom:1px solid #f5f5f5;
+}
+
+.terms-head{
+	font-size: 20px;
+    border-bottom: 3px solid #ffcd9a;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.circle{
+	
+	color: #fff;
+    background: #ff6666;
+    border-radius: 50%;
+    padding: 6px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.envelope-size{
+	font-size:28px;
+	color:#ffffff;
+}
+
+.contact-info{
+	display:inline-block;
+		
+		
+}
+
+.contactForm{
+		    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 700;
+    text-align: left;
+}
+
+.form-text, input[type=password], input[type=url], input[type=email] {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -o-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    width: 100%;
+    padding: 8px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+    border-color: rgba(0, 0, 0, .2);
+}
+
+textarea {
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    -o-box-shadow: 0 1px 0 rgba(0, 0, 0, .2) inset;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    width: 100%;
+    padding: 8px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+    border-color: rgba(0, 0, 0, .2);
+}
+
+.booking-btn{
+	background-color: #ff6666;
+    border-radius: 0;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    display: inline-block;	
+}
+
+
+.question{
+	padding:10px 0;
+	cursor:pointer;
+}
+
+.form-select{
+    margin-top: 8px;
+}
+
+#errorMessage{
+    color:red;
+}
+
+.form-admin-space{
+    margin-bottom:10px;
+}

@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:700);
+
+html{
+    box-sizing: border-box;
+   
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+
+body{
+     color:#050505;
+    font-size:16px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+}
+
+
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    visibility: hidden;
+    clear:both;
+}
+
+/*********nav button**********/
+#main-content{
+    
+}
+#main-content .nav{
+    margin-top:20px;
+    border-bottom:none;    
+}
+
+#main-content .active-link{
+    background: #ffcd9a;
+}
+
+#main-content .nav>li a, #main-content .nav>li a:link{
+    font-size:1.9rem;
+    color: #000;
+    border-bottom:1px solid #ffcd9a;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#main-content .nav>li a:hover,#main-content .nav>li a:active {
+    background: #ffcd9a;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    
+    outline: none;
+}
+
+#main-content .film-gallery{
+    margin-top:16px;
+    margin-bottom:20px;
+}
+
+#main-content .film-title{
+    color: #000;
+    padding-top: 15px;
+    font-size:10px;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: normal;
+    text-overflow: ellipsis;
+}
+
+#main-content .film-detail{
+    
+   display:none;
+    
+}
+
+#main-content .film-gallery .btn-booking{
+    background-color:#ff6666;
+    border-radius: 0;
+    color:#ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+@media (min-width:480px){
+    
+    #main-content .film-title{
+    color: #000;
+    padding-top: 15px;
+    font-size:13px;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: normal;
+    text-overflow: ellipsis;
+}
+    #main-content .film-detail{
+        display:block;
+        color: #000;
+        font-size: 13px;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-transform: capitalize;
+    }
+}
+
+
+/**************booking form******************/
+.booking-form{
+        font-family: 'Archivo Narrow', sans-serif;
+        background: #eaeaea;
+        text-align:center;
+        border-top: 5px solid #ff6666;
+}
+
+.booking-form .btn-booking{
+    margin-top:20px;
+    margin-bottom:15px;
+    background-color:#ff6666;
+    border-radius: 0;
+    color:#ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.btn-arrow{
+    width:14px;
+    height:auto;
+        
+}
+
+.form-space{
+    padding-top:17px;
+     
+}
+
+select{
+    width:80%;
+    padding:10px;
+}
+
+.about-us {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:14px;
+}
+
+.about-us h2{
+    text-align:center;
+}
+
+/***********Top movie***************/
+#top-movie{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#top-movie h2{
+    text-align:center;
+}
+
+#top-movie h3{
+    text-align:center;
+}
+
+#top-movie h3 img{
+    margin-top:5px;
+    float:left;
+    width:16px;
+    height:auto;
+}
+
+#top-movie .movie-list{
+    margin-bottom:20px;
+}
+
+@media (min-width:347px){
+    #top-movie img{
+        margin-top:10px;
+    }
+}
+
+
+/********Jquery CSS*************/
+.slick-prev, .slick-next{
+	float:right;
+	width:10px;
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+.showing_now{
+	background-color:#ffcd9a;
+	padding:10px;
+}
+
+
+#error{
+    color:red;
+}

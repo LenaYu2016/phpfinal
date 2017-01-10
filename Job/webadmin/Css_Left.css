@@ -1,0 +1,71 @@
+Body
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #000000;
+	line-height: 22px;
+	text-decoration: none;
+	SCROLLBAR-FACE-COLOR: #2B73F1;
+	SCROLLBAR-HIGHLIGHT-COLOR: #0650D2;
+	SCROLLBAR-SHADOW-COLOR: #449AE8;
+	SCROLLBAR-3DLIGHT-COLOR: #449AE8;
+	SCROLLBAR-ARROW-COLOR: #02338A;
+	SCROLLBAR-TRACK-COLOR: #0650D2;
+	SCROLLBAR-DARKSHADOW-COLOR: #0650D2;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #0650D2;
+}
+Td
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+}
+.Td_Menu
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #0F42A6;
+	line-height: 25px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+A
+{
+	text-decoration: none;
+	color: #000000;
+}
+A:hover
+{
+	color: #FF3300;
+	text-decoration: none;
+}
+.Td_Word
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.top
+{
+	background:#0650D2;
+	color: #B5CBF2;
+	line-height: 22px;
+}
+.A_top
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.A_top:hover
+{
+	color: #FFFF00;
+	text-decoration: none;
+}

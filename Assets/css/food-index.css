@@ -1,0 +1,327 @@
+main{
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width: 992px) {
+    p,.btn,input,div,span,h4 {
+        font-size: 95%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p,.btn,input,div,span,h4 {
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
+.foods{
+    margin-bottom: 20px;
+}
+.image{
+    padding:0;
+
+margin-bottom:30px;
+
+}
+img{
+    margin:0 auto;
+    padding:0;
+    display: block;
+
+}
+.menu{
+margin-top:30px;
+
+
+}
+.ctlist{
+
+
+margin-top: 30px;
+
+}
+.catagory{
+    width: 100%;
+    font-size: large;
+    color:firebrick;
+    font-weight: 800;
+}
+.cfont{
+    color:firebrick;
+    text-decoration: none;
+    font-family: "Bookman Old Style";
+    padding:15px;
+}
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+.cart{
+    display: inline-block;
+
+}
+.order{
+    height: 45px;
+}
+.menu img:hover{
+
+
+    opacity:0.5;
+}
+#rate img:hover{
+
+
+    opacity:0.5;
+}
+.image1{
+
+
+
+    margin:auto;
+
+}
+
+
+div h3{
+    text-align: center;
+}
+.image2{
+    background-color: black;
+    width:220px;
+    height:147px;
+    margin:0 auto;
+}
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #3596e0;
+    left: initial;
+    font-size: 14px;
+}
+.line{
+    height:2px;
+    width:100%;
+    background-color: black;
+
+}
+.nav-pagination nav{
+    width: 100%;
+}
+.pagination{
+    margin:0 auto;
+}
+.plus{
+    position: absolute;
+    top:-10000px;
+
+   border-radius: 50%;
+    border:0;
+    background-color: salmon;
+
+}
+.plus span{
+    border-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.plus:hover{
+    background-color:white;
+
+}
+
+.plus:hover{
+    top:90%;
+    left:90%;
+}
+.food_title,.view{
+    position: absolute;
+    top:-10000px;
+
+}
+.food_title{
+    font-size:x-small;
+    font-weight:600;
+    color:white;
+
+}
+.view{
+    background-color: transparent;
+    border-color: white;
+    color:white;
+}
+.image3{
+    width: 90%;
+    margin:auto;
+
+    background-color: black;
+}
+
+
+.test1{
+width:200px;
+    height: 150px;
+    margin:0 auto;
+
+}
+.test1 img{
+    margin:auto;
+
+}
+.test{
+    margin-bottom: 30px;
+}
+.menu .thumbnail{
+    padding: 0;
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.menu .thumbnail img{
+    margin-right: 0;
+    margin-left: 0;
+    width:100%;
+}
+#rate .thumbnail{
+    background-color: white;
+}
+#rate p{
+    font-weight: 800;
+}
+@media (min-width:768px) and (max-width: 800px) {
+    .food_title{
+        font-size:x-small;
+        font-weight:600;
+        color:white;
+    }
+}
+.menu nav li:not(.disabled){
+cursor: pointer;
+}
+span.form-control-feedback:hover{
+    cursor: pointer;
+}
+input::-webkit-calendar-picker-indicator {
+    display: none;-webkit-appearance: none;
+}
+.dropbtn {
+    background-color: lightseagreen;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

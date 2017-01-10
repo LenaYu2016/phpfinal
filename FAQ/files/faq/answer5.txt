@@ -1,0 +1,2 @@
+<p>Once tickets have been bought online, they are considered sold and cannot be cancelled, refunded or exchanged.</p>
+[FAQ-hit]:121
